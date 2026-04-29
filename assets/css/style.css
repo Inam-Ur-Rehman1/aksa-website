@@ -87,6 +87,24 @@ p {
   background-color: var(--light-background);
 } */
 
+.hero-section-1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section-1::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 153, 255, 0.2), transparent);
+  bottom: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: blur(80px);
+  z-index: 0;
+}
+
 .hero-section-1 p {
   color: var(--black-color) !important;
 }
