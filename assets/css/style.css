@@ -1536,6 +1536,27 @@ textarea.custom-input {
   overflow: hidden;
 }
 
+.leading-technology-section .row {
+  align-items: stretch;
+}
+
+.leading-technology-section .leading-technology-image-col {
+  display: flex;
+}
+
+.leading-technology-section .leading-technology-image {
+  height: 100%;
+  width: 100%;
+}
+
+.leading-technology-section .leading-technology-image img {
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
 /* Image Glow Effect */
 .shadow-image {
   /* max-width: 500px; */
