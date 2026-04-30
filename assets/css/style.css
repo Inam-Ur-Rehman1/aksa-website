@@ -1537,11 +1537,11 @@ textarea.custom-input {
 }
 
 .leading-technology-section .row {
-  align-items: stretch;
+  align-items: stretch !important;
 }
 
 .leading-technology-section .leading-technology-image-col {
-  display: flex;
+  display: flex !important;
 }
 
 .leading-technology-section .leading-technology-image {
